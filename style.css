@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+#successMessage{
+    color: green;
+   }
+
+#errorMessage{
+    color: red;
+   }
+
+
+button{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    height: 10%;
+
+}   
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 15px;
+    color: white;
+}

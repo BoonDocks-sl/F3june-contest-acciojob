@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <h1>Sign Up</h1>
+    <section id="signupSection">
+     
+      <form id="signupForm">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" /><br />
+<hr>
+        <label for="email">Email:</label>
+        <input type="email" id="email"  /><br /> <hr>
+        <label for="password">Password:</label>
+        <input type="password" id="password"  /><br /><hr>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword"  /><br /><hr>
+
+        <!-- <input class ="btn" type="submit" value="Sign Up" /> -->
+        <button>Sign up</button>
+      </form>
+    </section>
+
+    <div id="successMessage" class="hidden"></div>
+    <div id="errorMessage" class="hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
